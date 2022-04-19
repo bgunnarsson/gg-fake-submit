@@ -1,8 +1,11 @@
 {
-  "name": "@gunnarssongroup/gg-fake-submit",
+  "name": "@gunnarssongroup/fake-submit",
   "version": "0.0.1",
   "author": "B. Gunnarsson",
+  "homepage": "https://github.com/bgunnarsson/gg-fake-submit",
   "description": "Submit helper",
+  "url" : "https://github.com/bgunnarsson/gg-fake-submit/issues",
+  "email" : "packages@gunnarssongroup.com",
   "main": "build/index.min.js",
   "types": "build/types/**/*.d.ts",
   "engines": {
@@ -53,9 +56,9 @@
   "files": [
     "build/**/*"
   ],
-  "license": "ISC",
+  "license": "(MIT OR Apache-2.0)",
   "keywords": [
-    "Keyword1",
-    "Keyword2"
+    "Request Submit",
+    "JavaScript"
   ]
 }
