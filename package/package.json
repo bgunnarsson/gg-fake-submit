@@ -1,8 +1,8 @@
 {
-  "name": "@gunnarssongroup/package-name",
+  "name": "@gunnarssongroup/gg-fake-submit",
   "version": "0.0.1",
   "author": "B. Gunnarsson",
-  "description": "Package Description",
+  "description": "Submit helper",
   "main": "build/index.min.js",
   "types": "build/types/**/*.d.ts",
   "engines": {
