@@ -9,7 +9,7 @@ Used instead of `form.requestSubmit()` for safari browsers
 ```
 npm i --save @gunnarssongroup/fake-submit
 -or-
-yarn @gunnarssongroup/fake-submit
+yarn add @gunnarssongroup/fake-submit
 ```
 
 ### `Usage`
