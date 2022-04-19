@@ -1,13 +1,13 @@
 {
   "name": "@gunnarssongroup/fake-submit",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "B. Gunnarsson",
   "homepage": "https://github.com/bgunnarsson/gg-fake-submit",
   "description": "Submit helper",
   "url" : "https://github.com/bgunnarsson/gg-fake-submit/issues",
   "email" : "packages@gunnarssongroup.com",
-  "main": "build/index.min.js",
-  "types": "build/types/**/*.d.ts",
+  "main": "build/index.js",
+  "types": "build/types/index.d.ts",
   "engines": {
     "node": "16.14.2"
   },

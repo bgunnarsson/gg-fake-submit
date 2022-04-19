@@ -38,6 +38,6 @@ module.exports = (env, argv) => {
     optimization: optimize(config),
     plugins: plugins(config),
     resolve,
-    target: 'web',
+    // target: 'web',
   }
 };
