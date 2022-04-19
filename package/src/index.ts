@@ -1,6 +1,6 @@
 export type IFakeSubmitPlugin = (form: HTMLFormElement) => void
 
-export const FakeSubmit: IFakeSubmitPlugin = (form: HTMLFormElement) => {
+export const FakeSubmit: IFakeSubmitPlugin = (form) => {
   if (!form) return
 
   const element = document.createElement('button') as HTMLButtonElement
