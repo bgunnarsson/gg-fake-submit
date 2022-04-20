@@ -1,6 +1,6 @@
 {
   "name": "@gunnarssongroup/fake-submit",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "author": "B. Gunnarsson",
   "homepage": "https://github.com/bgunnarsson/gg-fake-submit",
   "description": "Submit helper",
@@ -38,8 +38,8 @@
     "webpack-merge": "^5.8.0"
   },
   "scripts": {
-    "build": "webpack --config ./webpack --mode=production",
-    "build:tsc": "npx tsc",
+    "build:wpck": "webpack --config ./webpack --mode=production",
+    "build": "npx tsc",
     "clean": "rd /s /q build && webpack --config ./webpack --mode=production && tsc --outFile",
     "build:types": "tsc",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
