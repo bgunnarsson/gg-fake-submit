@@ -1,4 +1,21 @@
-# _NPM Package Starter_
+# _Fake Submit_
+
+### `Install`
+
+```
+$ npm i --save @gunnarssongroup/fake-submit
+-or-
+$ yarn add @gunnarssongroup/fake-submit
+```
+
+### `Usage`
+```
+import { FakeSubmit } from '@gunnarssongroup/fake-submit'
+
+button.addEventListener('click', (e: Event & {target: HTMLButtonElement}) => {
+  FakeSubmit(form)
+})
+```
 
 ### `Project Setup`
 
@@ -11,6 +28,7 @@
 Open the package folder [~\package\] in a terminal and run:
 
 $ npm i
+
 ```
 
 #### `Build`
